@@ -51,6 +51,4 @@ public class FinalMatch implements FinalMatchInterface {
         }
         return new TeamInfo(names.get(highScore), runs[highScore]);
     }
-
-
 }
