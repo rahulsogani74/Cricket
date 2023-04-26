@@ -43,12 +43,12 @@ public class Starter {
         System.out.println("Top group winners: " + topGroupWinner);
 
         FinalMatch finalMatch = new FinalMatch();
-        List<String> groupWinnerr = new ArrayList<>();
+        List<String> groupmatchWinner = new ArrayList<>();
         for (int i = 0; i < groupWinner.size(); i++) {
-            groupWinnerr.add(groupWinner.get(i).getName());
+            groupmatchWinner.add(groupWinner.get(i).getName());
         }
 
-        TeamInfo winningTeam = finalMatch.play(groupWinnerr);
+        TeamInfo winningTeam = finalMatch.play(groupmatchWinner);
         System.out.println("Winning Team: " + winningTeam.getName());
     }
 }
